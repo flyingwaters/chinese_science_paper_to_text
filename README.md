@@ -11,7 +11,9 @@
 ```Python3
 python main.py --lang chinese --pdf_dir_pth ./test_pdf --result_json_file ./reult.json --num 40
 ```
-上面例子可以直接, 运行.
+上面例子可以直接, 运行. 如果这个小项目帮助到了您工作或者学习。希望您可以star此项目，感谢。
+
+
 ----------
 
 ## 参数说明
