@@ -84,6 +84,7 @@ class Process:
         result_str1 = sub("\[[0-9]*-*~*,*[0-9]*-*[0-9]*(,[0-9]*)*\]","",page_content)
         result_str2 = sub("［[0-9]*－*[0-9]*］","",result_str1)
         dic_result={}
+        dic_result["abstract"] = abstract
         dic_result["pdf_name"] = file_name
         dic_result["whole_content"] = result_str2
         split_list = split("[；。]", result_str2)
@@ -140,6 +141,7 @@ class Process:
         result_str1 = sub("\[[0-9]*-*~*,*[0-9]*-*[0-9]*(,[0-9]*)*\]","",page_content)
         result_str2 = sub("［[0-9]*－*[0-9]*］","",result_str1)
         dic_result={}
+        dic_result["abstract"] = abstract
         dic_result["pdf_name"] = file_name
         dic_result["whole_content"] = result_str2
         split_list = split("[;.]", result_str2)
