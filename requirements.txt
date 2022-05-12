@@ -1,0 +1,6 @@
+langdetect==1.0.9
+PyMuPDF==1.19.6
+tqdm==4.63.0
+json
+tqdm
+multiprocessing
